@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.felipecv"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.felipecv.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.felipecv.CVActivity"
+            android:label="@string/title_activity_cv" >
+        </activity>
+        <activity
+            android:name="com.example.felipecv.FormationActivity"
+            android:label="@string/title_activity_formation" >
+        </activity>
+        <activity
+            android:name="com.example.felipecv.LanguageActivity"
+            android:label="@string/title_activity_language" >
+        </activity>
+        <activity
+            android:name="com.example.felipecv.ComputerActivity"
+            android:label="@string/title_activity_computer" >
+        </activity>
+        <activity
+            android:name="com.example.felipecv.HobbiesActivity"
+            android:label="@string/title_activity_hobbies" >
+        </activity>
+        <activity
+            android:name="com.example.felipecv.LinksActivity"
+            android:label="@string/title_activity_links" >
+        </activity>
+        <activity
+            android:name="com.example.felipecv.ProgramActivity"
+            android:label="@string/title_activity_program" >
+        </activity>
+        <activity
+            android:name="com.example.felipecv.PasswordActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.felipecv.ContactActivity"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name="com.example.felipecv.WEActivity"
+            android:label="@string/title_activity_we" >
+        </activity>
+    </application>
+
+</manifest>

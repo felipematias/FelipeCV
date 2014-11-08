@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="exit">Sair</string>
+    <string name="selectLang">\nSelecione o idioma\n</string>
+    <string name="changeLang">Mudar o Idioma</string>
+    
+    
+    <!-- MainActivity strings -->
+    <string name="objective">\n<b>Objetivo:</b> Estágio obrigatório em informática.\n<b>Duração:</b> Dois meses (entre 25 de junho e 10 de setembro de 2014).\n</string>
+    <string name="etc">\n\tNascido no dia 21 de janeiro de 1993 em São Paulo (%1$s anos).\n\tDupla Cidadania: Brasileira/Portuguesa.\n</string>
+    <string name="cv">Ver Currículo</string>
+    <string name="copyright"><i>\nAplicativo desenvolvido por Felipe Matias</i></string>
+    <string name="backBot">Você deseja realmente sair?</string>
+    <string name="yesQuestion">Sim</string>
+    <string name="noQuestion">Não</string>
+    
+    <!-- PasswordActivity strings -->
+    <string name="typePass">Digite sua senha</string>
+    <string name="password">senha</string>
+    <string name="wrongPass">Você digitou a senha errada</string>
+    
+    <!-- ContactActivity strings -->
+    <string name="CO">Contato</string>
+    <string name="addressBrTitle">Endereço (Brasil):</string>
+    <string name="addressFrTitle">Endereço (França):</string>
+    <string name="addressBr">Rua Xavier de Almeida, 918, apto 164 – Bloco 03.\nIpiranga – São Paulo-SP - Brasil\nCEP 04211-001\nTel: +55 11 975141042\n
+    </string>
+    <string name="addressFr">Résidence G\nChambre 310\n20 avenue Albert Einstein\n69621 Villeurbanne.\nPortable: +33 689221973\n</string>
+    
+    
+    <!-- LanguageActivity strings -->
+    <string name="portuguese">Português</string>
+    <string name="french">Francês</string>
+    <string name="english">Inglês</string>
+    <string name="spanish">Espanhol</string>
+    <string name="natLang">Língua Materna</string>
+	<string name="fluent">Fluente</string>
+    <string name="GAL">\tBom nível acadêmico (leitura, escrita, fala)</string>
+    <string name="BAL">\tNível acadêmico básico (leitura, escrita, fala)</string>
+    <string name="languages">Idiomas\n</string>
+    
+    <!-- FormationActivity strings -->
+    <string name="date1">De 1998 à 2010</string>
+    <string name="date2">Desde 2011</string>
+    <string name="formation1">\tEnsino Fundamental e Médio no Colégio Marista Arquidiocesano de São Paulo</string>
+    <string name="formation2">\tAtualmente estou cursando o terceiro ano em Engenharia da Computação no 
+        Instituto Nacional de Ciências Aplicadas de Lyon – INSA Lyon (\“Grande École\” na França)</string>
+    <string name="formation">Formação\n</string>
+    
+    
+    <!-- CVActivity strings -->
+    <string name="FE">FORMAÇÃO: ENGENHEIRO (ESTUDANTE)</string>
+    <string name="CT">HABILIDADES</string>
+    <string name="LANG">IDIOMAS</string>
+    <string name="UL">LINKS ÚTEIS</string>
+    <string name="TYP">Programa do terceiro ano no INSA</string>
+    <string name="CONTACT">CONTATO</string>
+    
+    <!-- ComputerActivity strings -->
+    <string name="web">Web</string>
+    <string name="desktop">Desktop</string>
+    <string name="phone">Celular</string>
+    <string name="compEnv">Programas e Sistemas Operacionais</string>
+    <string name="webDesc">\tNoções de XHTML 1.0, HTML 5, CSS 3 e Java Script</string>
+    <string name="desktopDesc">\tConhecimento de OOP (Programação Orientada Objeto), Java, C#, C++ e SQL</string>
+    <string name="phoneDesc">\tConhecimento em programação para Android</string>
+    <string name="compEnvDesc1">\tConhecimento em Word, Excel e PowerPoint</string>
+    <string name="compEnvDesc2">\tConhecimento de Windows e Linux</string>
+    
+    <!-- LinksActivity strings -->
+    <string name="siteFr">Site do INSA (Francês):</string>
+    <string name="siteEn">Site do INSA (Inglês):</string>
+    <string name="progFR">Programa do terceiro ano no INSA (Francês):</string>
+    <string name="progEn">Programa do terceiro ano no INSA (Inglês):</string>
+    <string name="Ulinks">Links Úteis\n</string>
+    
+    <!-- ProgramActivity strings -->
+    <string name="information_systems">Sistemas de Informação</string>
+    <string name="hardware_architecture">Arquitetura de Hardware</string>
+	<string name="general_training">Formação Geral</string>
+    <string name="software_development">Desenvolvimento de Software</string>
+    <string name="system_and_network">Sistemas e Redes</string>
+    <string name="models_and_mathematical_tools">Modelos Matemáticos e Ferramentas</string>
+    <string name="work_experience">Estágio</string>
+    <string name="foreign_languages">Idiomas</string>
+    <string name="spo">Educação Física e Esporte</string>
+    
+    <!-- information systems strings -->
+    <string name="is1">Sistema de gestão de bancos de dados</string>
+    <string name="is2">Desenvolvimento de aplicações para sistemas de informação</string>
+    <string name="is3">Bancos de dados semi-struturados</string>
+    <string name="is4">Modelagem de processos</string>
+    <string name="is5">Fundamentos da modelagem de dados</string>
+    <string name="is6">Bancos de dados distribuídos</string>
+    
+    <!-- hardware architecture strings -->
+    <string name="ha1">Arquitetura de computadores</string>
+    <string name="ha2">Arquitetura de circuitos</string>
+    
+    <!-- general training strings -->
+    <string name="gt1">Empresa: Estrutura e funcionamento</string>
+    <string name="gt2">Ciências humanas e comunicação</string>
+    <string name="gt3">Empresa: Jurídico</string>
+    <string name="gt4">Projeto Profissional</string>
+    
+    <!-- software development strings -->
+    <string name="sd1">Algoritmo e programação orientada objeto - C++</string>
+    <string name="sd2">Engenharia de software</string>
+    <string name="sd3">UML</string>
+    <string name="sd4">Trabalho colaborativo</string>
+    
+    <!-- system and network strings -->
+    <string name="sn1">Programação concorrente</string>
+    <string name="sn2">Bases técnicas para redes</string>
+    <string name="sn3">Ambiente de programação</string>
+    
+    <!--models and mathematical tools strings -->
+    <string name="mmt1">Teoria da informação e bases para a criptografia</string>
+    <string name="mmt2">Álgebra linear e cálculo matricial</string>
+    <string name="mmt3">Fundamentos da inteligência artificial</string>
+    <string name="mmt4">Probabilidades</string>
+    <string name="mmt5">Tratamento de sinal</string>
+    <string name="mmt6">Ferramentas matemáticas para a informática</string>
+    <string name="mmt7">Processamento de imagens</string>
+    
+    <!--work experience strings -->
+    <string name="we1">Estágio</string>
+    
+    <!--foreign languages strings -->
+    <string name="fl1">Inglês, alemão, português, italiano, árabe, russo ou chinês</string>
+    
+    
+    
+    <color name="LIMEGREEN">#FF32CD32</color>
+
+    <string name="title_activity_links">LinksActivity</string>
+    <string name="title_activity_program">ProgramActivity</string>
+    <string name="title_activity_password">PasswordActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="computer_tools_title">Habilidades\n</string>
+    
+    
+    <string name="work_exp">Experiência Profissional</string>
+    <string name="WORK_EXP">EXPERIÊNCIA PROFISSIONAL</string>
+    <string name="title_activity_we">WEActivity</string>
+    <string name="we_1">\tEstágio obrigatório de um mês na PILPA (Fábrica de sorvetes) em agosto de 2012:\n</string>
+    <string name="we_2">\tDurante o mês do estágio eu pude ver e sentir as dificuldades dos operários,
+        entender as relações de trabalho dentro de uma fábrica e também observar e participar do funcionamento
+        de uma linha de montagem.\n</string>
+    
+    
+</resources>

@@ -1,0 +1,137 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center_horizontal"
+	    android:orientation="vertical"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+	    tools:context=".LinksActivity" >
+	
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/Ulinks"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textStyle="bold" />
+	
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="6.52" >
+	
+	        <TextView
+	            android:id="@+id/webFr"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignParentTop="true"
+	            android:text="@string/siteFr"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:textStyle="bold" />
+	
+	        <TextView
+	            android:id="@+id/linkFr"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/webFr"
+	            android:autoLink="web"
+	            android:text="Small Text"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	        <TextView
+	            android:id="@+id/linkEn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/webEn"
+	            android:autoLink="web"
+	            android:text="Small Text"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	        <TextView
+	            android:id="@+id/textView6"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/linkEn"
+	            android:layout_marginTop="20dp"
+	            android:text="@string/progFR"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:textStyle="bold" />
+	
+	        <TextView
+	            android:id="@+id/progFr"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/textView6"
+	            android:autoLink="web"
+	            android:text="Small Text"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	        <TextView
+	            android:id="@+id/progEn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/textView8"
+	            android:autoLink="web"
+	            android:text="Small Text"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	        <TextView
+	            android:id="@+id/textView8"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/progFr"
+	            android:layout_marginTop="20dp"
+	            android:text="@string/progEn"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:textStyle="bold" />
+	        
+	         <TextView
+		        android:id="@+id/pdfs"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="CVs PDF (Google Drive):"
+		        android:layout_marginTop="20dp"
+		        android:layout_below="@+id/progEn"
+		        android:textStyle="bold"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+	         
+	         <TextView
+		        android:id="@+id/pdfsText"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="pdfs text"
+		        android:autoLink="web"
+		        android:layout_below="@+id/pdfs"
+		        android:textAppearance="?android:attr/textAppearanceSmall"  />
+
+	         <TextView
+	             android:id="@+id/webEn"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:layout_alignParentLeft="true"
+	             android:layout_below="@+id/linkFr"
+	             android:layout_marginTop="20dp"
+	             android:text="@string/siteEn"
+	             android:textAppearance="?android:attr/textAppearanceMedium"
+	             android:textStyle="bold" />
+	
+	    </RelativeLayout>
+
+	  
+	
+	</LinearLayout>
+</ScrollView>

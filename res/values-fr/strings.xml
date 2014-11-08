@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">FelipeCV</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_cv">CVActivity</string>
+    <string name="title_activity_formation">FormationActivity</string>
+    <string name="title_activity_language">LanguageActivity</string>
+    <string name="title_activity_computer">ComputerActivity</string>
+    <string name="title_activity_hobbies">HobbiesActivity</string>
+    <string name="exit">Sortir</string>
+    <string name="selectLang">\nChoisissez votre langue\n</string>
+    <string name="changeLang">Modifier la Langue</string>
+
+    <!-- MainActivity strings -->
+    <string name="objective">\n<b>Objectif:</b> Stage obligatoire en informatique.\n<b>Durée:</b> Deux mois (entre le 25 Juin et Septembre 10 2014).\n</string>
+    <string name="etc">\n\tNé le 21 janvier 1993 à São Paulo (%1$s ans).\n\tDouble Nationalité: Brésilienne/Portugaise.\n</string>
+    <string name="cv">Voir CV</string>
+    <string name="copyright"><i>\nApplication développée par Felipe Matias</i></string>
+    <string name="backBot">Voulez-vous vraiment quitter?</string>
+    <string name="yesQuestion">Oui</string>
+    <string name="noQuestion">Non</string>
+
+    <!-- PasswordActivity strings -->
+    <string name="typePass">Saisissez votre mot de passe</string>
+    <string name="password">mot de passe</string>
+    <string name="wrongPass">Vous avez tapé le mauvais mot de passe</string>
+    
+    <!-- ContactActivity strings -->
+    <string name="CO">Contact</string>
+    <string name="addressBrTitle">Adresse (Brésil):</string>
+    <string name="addressFrTitle">Adresse (France):</string>
+    <string name="addressBr">Rua Xavier de Almeida, 918, apto 164 – Bloco 03.\nIpiranga – São Paulo-SP - Brasil\nCEP 04211-001\nTel: +55 11 975141042\n
+    </string>
+    <string name="addressFr">Résidence G\nChambre 310\n20 avenue Albert Einstein\n69621 Villeurbanne.\nPortable: +33 689221973\n</string>
+
+    <!-- LanguageActivity strings -->
+    <string name="portuguese">Portugais</string>
+    <string name="french">Français</string>
+    <string name="english">Anglais</string>
+    <string name="spanish">Espagnol</string>
+    <string name="natLang">Langue Maternelle</string>
+    <string name="fluent">Fluent</string>
+    <string name="GAL">Bon niveau scolaire (lu, écrit, parlé)</string>
+    <string name="BAL">Niveau scolaire basique (lu, écrit, parlé)</string>
+    <string name="languages">Langues\n</string>
+
+    <!-- FormationActivity strings -->
+    <string name="date1">De 1998 à 2010</string>
+    <string name="date2">Depuis 2011</string>
+    <string name="formation1">\tÉcole primaire, intermédiaire et secondaire au Colégio Marista Arquidiocesano à São Paulo</string>
+    <string name="formation2">\tMaintenant je suis étudiant en troisième année en Informatique à l\'Institut National des Sciences Appliquées de Lyon – INSA Lyon (\“Grande École\” en France)</string>
+    <string name="formation">Formation\n</string>
+
+    <!-- CVActivity strings -->
+    <string name="FE">FORMATION: (ETUDIANT) INGÉNIERIE</string>
+    <string name="CT">COMPÉTENCES</string>
+    <string name="LANG">LANGUES</string>
+    <string name="UL">LIENS UTILES</string>
+    <string name="TYP">Programme de troisième année en Informatique de l\'INSA</string>
+    <string name="CONTACT">CONTACT</string>
+
+    <!-- ComputerActivity strings -->
+    <string name="web">Web</string>
+    <string name="desktop">Desktop</string>
+    <string name="phone">Portable </string>
+    <string name="compEnv">Logiciels et environnements</string>
+    <string name="webDesc">\tNotions de XHTML 1.0, HTML 5, CSS 3 et JavaScript</string>
+    <string name="desktopDesc">\tConnaissance de OOP, Java, C#, C++ et SQL</string>
+    <string name="phoneDesc">\tConnaissance en programmation sur système Android</string>
+    <string name="compEnvDesc1">\tConnaissance de Word, Excel et PowerPoint</string>
+    <string name="compEnvDesc2">\tBonne connaissance de l’environnement Windows et Linux</string>
+
+    <!-- LinksActivity strings -->
+    <string name="siteFr">Site Web de l’INSA (Français):</string>
+    <string name="siteEn">Site Web de l’INSA (Anglais):</string>
+    <string name="progFR">Programme de troisième année en Informatique de l\'INSA (Français):</string>
+    <string name="progEn">Programme de troisième année en Informatique de l\'INSA (Anglais):</string>
+    <string name="Ulinks">Liens Utiles\n</string>
+    
+    
+    <!-- ProgramActivity strings -->
+    <string name="information_systems">Systèmes d\'Information</string>
+    <string name="hardware_architecture">Architecture Matérielle</string>
+	<string name="general_training">Formation Générale</string>
+    <string name="software_development">Développement Logiciel</string>
+    <string name="system_and_network">Système et Réseau</string>
+    <string name="models_and_mathematical_tools">Modèles et Outils Mathématiques</string>
+    <string name="work_experience">Stage</string>
+    <string name="foreign_languages">Langues Etrangères</string>
+    <string name="spo">Education Physique et Sportive</string>
+    
+    <!-- information systems strings -->
+    <string name="is1">Système de Gestion de Base de Données</string>
+    <string name="is2">Développement d\'Applications pour les Systèmes d\'Information</string>
+    <string name="is3">Bases de Données Semi-structurées</string>
+    <string name="is4">Modélisation des Processus</string>
+    <string name="is5">Fondamentaux de la Modélisation des Données</string>
+    <string name="is6">Bases de Données Distribuées</string>
+    
+    <!-- hardware architecture strings -->
+    <string name="ha1">Architectures des Ordinateurs</string>
+    <string name="ha2">Architecture des Circuits</string>
+    
+    <!-- general training strings -->
+    <string name="gt1">Entreprise: Structures et Fonctionnement</string>
+    <string name="gt2">Sciences Humaines et Communication</string>
+    <string name="gt3">Juridique Entreprise</string>
+    <string name="gt4">Projet Professionnel</string>
+    
+    <!-- software development strings -->
+    <string name="sd1">Algorithmique, Programmation Orientée Objet - C++</string>
+    <string name="sd2">Génie Logiciel</string>
+    <string name="sd3">Modélisation UML</string>
+    <string name="sd4">Travail Collaboratif</string>
+    
+    <!-- system and network strings -->
+    <string name="sn1">Programmation Concurrente</string>
+    <string name="sn2">Bases Techniques pour les Réseaux</string>
+    <string name="sn3">Environnement de Programmation</string>
+    
+    <!--models and mathematical tools strings -->
+    <string name="mmt1">Théorie de l\'Information et Bases pour la Cryptographie</string>
+    <string name="mmt2">Algèbre Linéaire et Calcul Matriciel</string>
+    <string name="mmt3">Bases de l\'Intelligence Artificielle</string>
+    <string name="mmt4">Probabilités</string>
+    <string name="mmt5">Traitement du Signal</string>
+    <string name="mmt6">Outils Mathématiques pour l\'Informatique</string>
+    <string name="mmt7">Images</string>
+    
+    <!--work experience strings -->
+    <string name="we1">Stage</string>
+    
+    <!--foreign languages strings -->
+    <string name="fl1">Anglais, allemand, portugais, italien, arabe, russe ou chinois</string>
+    
+    
+    
+    <color name="LIMEGREEN">#FF32CD32</color>
+
+    <string name="title_activity_links">LinksActivity</string>
+    <string name="title_activity_program">ProgramActivity</string>
+    <string name="title_activity_password">PasswordActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="computer_tools_title">Compétences\n</string>
+    
+    <string name="work_exp">Experiénce Professionnelle</string>
+    <string name="WORK_EXP">EXPERIÉNCE PROFESSIONNELLE</string>
+    <string name="title_activity_we">WEActivity</string>
+    <string name="we_1">\tStage ouvrier obligatoire d’un mois chez PILPA (usine de crème glacée) en août 2012:\n</string>
+    <string name="we_2">\tPendant le mois du stage j’ai pu voir et sentir les difficultés du travail d’ouvrier tant
+        comme le fonctionnement  d’une ligne de montage et les relations de travail dans une usine.\n</string>
+    
+    
+</resources>

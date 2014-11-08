@@ -1,0 +1,119 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center_horizontal"
+	    android:orientation="vertical"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+	    tools:context=".MainActivity" >
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="\nFelipe Matias Camargo\n"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textStyle="bold" />
+	
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/photo"
+	        tools:ignore="ContentDescription" />
+	
+	   <RelativeLayout
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content" >
+
+	       <TextView
+	           android:id="@+id/objectivesText"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_alignParentLeft="true"
+	           android:layout_alignParentTop="true"
+	           android:text="@string/objective" />
+
+	    </RelativeLayout>
+	
+	    <RelativeLayout
+	        android:id="@+id/emailText"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	         >
+	
+	        <TextView
+	            android:id="@+id/emailText2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@+id/emailText1"
+	            android:layout_below="@+id/emailText1"
+	            android:autoLink="email"
+	            android:text="emailText2" />
+	
+	        <TextView
+	            android:id="@+id/emailText1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentTop="true"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginRight="21dp"
+	            android:autoLink="email"
+	            android:text="emailText1" />
+	
+	        <TextView
+	            android:id="@+id/textView3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_above="@+id/emailText2"
+	            android:layout_alignParentLeft="true"
+	            android:text="Email: "
+	            android:layout_alignParentTop="true"
+	            android:textStyle="bold" />
+	    </RelativeLayout>
+	
+	    <TextView
+	        android:id="@+id/etc"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="TextViewEtc" />
+
+	    <RelativeLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent" >
+
+	        <Button
+	            android:id="@+id/botLan"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignParentTop="true"
+	            android:text="@string/changeLang" />
+
+	        <Button
+	            android:id="@+id/buttonFormation"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignParentTop="true"
+	            android:text="@string/cv" />
+
+	    </RelativeLayout>
+
+	    <TextView
+	        android:id="@+id/copyright"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/copyright" 
+	        android:textStyle="italic"/>
+	
+	</LinearLayout>
+</ScrollView>

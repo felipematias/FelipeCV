@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FelipeCV</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_cv">CVActivity</string>
+    <string name="title_activity_formation">FormationActivity</string>
+    <string name="title_activity_language">LanguageActivity</string>
+    <string name="title_activity_computer">ComputerActivity</string>
+    <string name="title_activity_hobbies">HobbiesActivity</string>
+    <string name="exit">Exit</string>
+    <string name="selectLang">\nSelect your language\n</string>
+    <string name="changeLang">Change Language</string>
+
+    <!-- MainActivity strings -->
+    <string name="objective">\n<b>Objective:</b> Mandatory internship in computer science.\n<b>Duration:</b> Two months (between June 25 and September 10, 2014).\n</string>
+    <string name="etc">\n\tBorn in 21 January 1993 at São Paulo\n(%1$s years old).\n\tDual Citizenship: Brazilian/Portuguese.\n</string>
+    <string name="cv">See CV</string>
+    <string name="copyright"><i>\nApplication developed by Felipe Matias</i></string>
+    <string name="backBot">Do you really want to leave?</string>
+    <string name="yesQuestion">Yes</string>
+    <string name="noQuestion">No</string>
+
+    <!-- PasswordActivity strings -->
+    <string name="typePass">Type your password</string>
+    <string name="password">password</string>
+    <string name="wrongPass">You typed the wrong password</string>
+
+    <!-- ContactActivity strings -->
+    <string name="CO">Contact</string>
+    <string name="addressBrTitle">Address (Brazil):</string>
+    <string name="addressFrTitle">Address (France):</string>
+    <string name="addressBr">Rua Xavier de Almeida, 918, apto 164 – Bloco 03.\nIpiranga – São Paulo-SP - Brasil\nCEP 04211-001\nTel: +55 11 975141042\n</string>
+    <string name="addressFr">Résidence G\nChambre 310\n20 avenue Albert Einstein\n69621 Villeurbanne.\nPortable: +33 689221973\n</string>
+
+    <!-- LanguageActivity strings -->
+    <string name="portuguese">Portuguese</string>
+    <string name="french">French</string>
+    <string name="english">English</string>
+    <string name="spanish">Spanish</string>
+    <string name="natLang">Native Language</string>
+    <string name="fluent">Fluent</string>
+    <string name="GAL">Good academic level (read, write, speak)</string>
+    <string name="BAL">Basic academic level (read, write, speak)</string>
+    <string name="languages">Languages\n</string>
+
+    <!-- FormationActivity strings -->
+    <string name="date1">From 1998 to 2010</string>
+    <string name="date2">Since 2011</string>
+    <string name="formation1">\tElementary, Middle and High school at Colégio Marista Arquidiocesano in São Paulo</string>
+    <string name="formation2">\tCurrently I\'m a third-year Computer Science student at the National 
+        Institute of Applied Sciences in Lyon – INSA Lyon (\“Grande École\” in France)</string>
+    <string name="formation">Academic Background\n</string>
+
+    <!-- CVActivity strings -->
+    <string name="FE">ACADEMIC BACKGROUND: ENGINEERING (STUDENT)</string>
+    <string name="CT">SKILLS</string>
+    <string name="LANG">LANGUAGES</string>
+    <string name="UL">USEFUL LINKS</string>
+    <string name="TYP">INSA’s Third-year program</string>
+    <string name="CONTACT">CONTACT</string>
+
+    <!-- ComputerActivity strings -->
+    <string name="web">Web</string>
+    <string name="desktop">Desktop</string>
+    <string name="phone">Phone</string>
+    <string name="compEnv">Computer programs and environments</string>
+    <string name="webDesc">\tNotions of XHTML 1.0, HTML 5, CSS 3 and JavaScript</string>
+    <string name="desktopDesc">\tKnowledge of OOP, Java, C#, C++ and SQL</string>
+    <string name="phoneDesc">\tKnowledge on Android programing</string>
+    <string name="compEnvDesc1">\tKnowledge of Word, Excel and PowerPoint</string>
+    <string name="compEnvDesc2">\tKnowledge of Windows and Linux environments</string>
+
+    <!-- LinksActivity strings -->
+    <string name="siteFr">INSA’s website (French):</string>
+    <string name="siteEn">INSA’s website (English):</string>
+    <string name="progFR">INSA’s Third-year program (French):</string>
+    <string name="progEn">INSA’s Third-year program (English):</string>
+    <string name="Ulinks">Useful Links\n</string>
+
+    <!-- ProgramActivity strings -->
+    <string name="information_systems">Information Systems</string>
+    <string name="hardware_architecture">Hardware Architecture</string>
+    <string name="general_training">General Training</string>
+    <string name="software_development">Software Development</string>
+    <string name="system_and_network">System and Network</string>
+    <string name="models_and_mathematical_tools">Models and Mathematical Tools</string>
+    <string name="work_experience">Internship</string>
+    <string name="foreign_languages">Foreign Languages</string>
+    <string name="spo">Sports</string>
+
+    <!-- information systems strings -->
+    <string name="is1">Data Base Management System</string>
+    <string name="is2">Information Systems Development</string>
+    <string name="is3">Semi-Structured Data Bases</string>
+    <string name="is4">Process Modeling</string>
+    <string name="is5">Data Modeling</string>
+    <string name="is6">Distributed Databases</string>
+
+    <!-- hardware architecture strings -->
+    <string name="ha1">Computer Architecture</string>
+    <string name="ha2">AC</string>
+
+    <!-- general training strings -->
+    <string name="gt1">Economics of Enterprise</string>
+    <string name="gt2">Human Sciences and Communication</string>
+    <string name="gt3">Legal Aspects of Companies</string>
+    <string name="gt4">Professionnal Project</string>
+
+    <!-- software development strings -->
+    <string name="sd1">Algorithmics, Object Oriented Programming - C++</string>
+    <string name="sd2">Software Engineering</string>
+    <string name="sd3">UML Modeling</string>
+    <string name="sd4">Collaborative Work</string>
+
+    <!-- system and network strings -->
+    <string name="sn1">Concurrent Programming</string>
+    <string name="sn2">Networking Basic Techniques</string>
+    <string name="sn3">Programming Environment</string>
+
+    <!-- models and mathematical tools strings -->
+    <string name="mmt1">Information Theory and Cryptography</string>
+    <string name="mmt2">Linear Algebra and Matrix Calculus</string>
+    <string name="mmt3">Theories of Artificial Intelligence</string>
+    <string name="mmt4">Probability</string>
+    <string name="mmt5">Signal Processing</string>
+    <string name="mmt6">Mathematical Tools for Computer Science</string>
+    <string name="mmt7">Image Processing : General Introduction</string>
+
+    <!-- work experience strings -->
+    <string name="we1">Internship</string>
+
+    <!-- foreign languages strings -->
+    <string name="fl1">English, German, Portuguese, Italian, Arabic, Russian or Chinese</string>
+
+    <color name="LIMEGREEN">#FF32CD32</color>
+    <color name="BACKBLUE">#008888</color>
+    <color name="white">#ffffff</color>
+
+    <string name="title_activity_links">LinksActivity</string>
+    <string name="title_activity_program">ProgramActivity</string>
+    <string name="title_activity_password">PasswordActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="computer_tools_title">Skills\n</string>
+    
+    <string name="work_exp">Work Experience</string>
+    <string name="WORK_EXP">WORK EXPERIENCE</string>
+    <string name="title_activity_we">WEActivity</string>
+    <string name="we_1">\tOne month mandatory internship at PILPA (ice cream factory) in August 2012:\n</string>
+    <string name="we_2">\tDuring the month of stage I could see and feel the difficulties faced by the workers,
+        understand the working relationships within a factory and also observe and take part
+        in the running of an assembly line.\n</string>
+
+</resources>
